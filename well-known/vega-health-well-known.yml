@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of vegahealth.com hosts
+hosts:
+- host: https://www.vegahealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+  - path: /sitemap.xml
+    status: 404
+- host: https://vegahealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: No well-known discovery documents published as of probe date. No API host
+  (api./docs./developer./developers./status./app./platform.vegahealth.com have no
+  DNS records); trust.vegahealth.com resolves to a SafeBase trust center (see
+  security/vega-health-trust-center.yml).

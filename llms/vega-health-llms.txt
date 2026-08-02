@@ -1,0 +1,27 @@
+# Vega Health
+
+> Vega Health provides AI infrastructure for healthcare organizations — a platform that installs in a health system's own environment (cloud or on-prem) to integrate, evaluate, monitor, and scale clinical AI solutions from any source, plus a curated marketplace of vetted health AI solutions and commercialization support for academic AI research. Backed by Bessemer Venture Partners. No public API, developer portal, or SDKs are published as of 2026-07-21.
+
+## Solutions
+
+- [Platform](https://www.vegahealth.com/solutions/platform/): AI infrastructure that installs in your environment, behind your firewalls, and works with your installed EHR
+- [Marketplace](https://www.vegahealth.com/solutions/marketplace/): Curated, vetted healthcare AI solutions validated for safety and efficacy
+- [Evaluate & Monitor](https://www.vegahealth.com/solutions/evaluate-monitor/): Objective evaluation and monitoring of AI performance on local data
+- [Commercialize](https://www.vegahealth.com/solutions/commercialize/): Support for turning AI research into market-ready products
+
+## Company
+
+- [Website](https://www.vegahealth.com/)
+- [Company](https://www.vegahealth.com/company/)
+- [Insights (blog)](https://www.vegahealth.com/insights/)
+- [Research](https://www.vegahealth.com/research/)
+- [Press](https://www.vegahealth.com/press/)
+- [Newsletter](https://www.vegahealth.com/newsletter/)
+- [Contact](https://www.vegahealth.com/contact/)
+- [Trust Center (SOC 2 Type 2, HIPAA)](https://trust.vegahealth.com/)
+- [Privacy Policy](https://www.vegahealth.com/policies/privacy-policy/)
+- [Terms of Service](https://www.vegahealth.com/policies/terms-of-service/)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/vega-health/refs/heads/main/apis.yml): APIs.json profile for Vega Health

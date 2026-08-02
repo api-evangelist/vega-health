@@ -1,8 +1,30 @@
 aid: vega-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vega-health.png
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 0
+  pass: local-v1
 name: Vega Health
-description: 'Vega Health is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Vega Health is a Durham, North Carolina healthcare AI company founded
+  by Dr. Mark Sendak, formerly of the Duke Institute for Health Innovation. Its platform
+  installs in a health system''s own environment (cloud or on-prem) to integrate,
+  evaluate, monitor, and scale clinical AI solutions, alongside a curated marketplace
+  of vetted health AI solutions and commercialization support for academic AI research.
+  Launched October 2025 with a $4M seed round led by Bessemer Venture Partners. The
+  company publishes a SafeBase trust center (SOC 2, HIPAA) but no public API, developer
+  portal, or SDKs as of 2026-07-21.'
 url: https://raw.githubusercontent.com/api-evangelist/vega-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Artificial Intelligence
+- Clinical AI
+- AI Governance
+- Marketplace
+- Health Systems
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,29 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/vega-health-trust-center.yml
+- type: Compliance
+  url: https://trust.vegahealth.com/
+- type: DomainSecurity
+  url: security/vega-health-domain-security.yml
+- type: WellKnown
+  url: well-known/vega-health-well-known.yml
+- type: LLMsTxt
+  url: llms/vega-health-llms.txt
 - type: Website
   url: https://www.vegahealth.com/
+- type: Blog
+  url: https://www.vegahealth.com/insights/
+- type: PrivacyPolicy
+  url: https://www.vegahealth.com/policies/privacy-policy/
+- type: TermsOfService
+  url: https://www.vegahealth.com/policies/terms-of-service/
+- type: Contact
+  url: https://www.vegahealth.com/contact/
+- type: Press
+  url: https://www.vegahealth.com/press/
+- type: Newsletter
+  url: https://www.vegahealth.com/newsletter/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vega-health/

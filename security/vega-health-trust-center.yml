@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.vegahealth.com/
+url: https://trust.vegahealth.com/
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://trust.vegahealth.com/
+  keywords:
+  - soc 2
+  - hipaa
+  - trust center
